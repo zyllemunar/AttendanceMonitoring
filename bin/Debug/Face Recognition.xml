@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Face Recognition
+</name>
+</assembly>
+<members>
+<member name="T:Face_Recognition.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Face_Recognition.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Face_Recognition.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Face_Recognition.Form1.EigenObjectRecognizer.CalcEigenObjects(Emgu.CV.Image{Emgu.CV.Structure.Gray,System.Byte}[],Emgu.CV.Structure.MCvTermCriteria@,Emgu.CV.Image{Emgu.CV.Structure.Gray,System.Single}[]@,Emgu.CV.Image{Emgu.CV.Structure.Gray,System.Single}@)">
+ <summary>
+ Caculate the eigen images for the specific traning image
+ </summary>
+ <param name="trainingImages">The images used for training </param>
+ <param name="termCrit">The criteria for tranning</param>
+ <param name="eigenImages">The resulting eigen images</param>
+ <param name="avg">The resulting average image</param>
+</member>
+<member name="M:Face_Recognition.Form1.EigenObjectRecognizer.EigenDecomposite(Emgu.CV.Image{Emgu.CV.Structure.Gray,System.Byte},Emgu.CV.Image{Emgu.CV.Structure.Gray,System.Single}[],Emgu.CV.Image{Emgu.CV.Structure.Gray,System.Single})">
+ <summary>
+ Decompose the image as eigen values, using the specific eigen vectors
+ </summary>
+ <param name="src">The image to be decomposed</param>
+ <param name="eigenImages">The eigen images</param>
+ <param name="avg">The average images</param>
+ <returns>Eigen values of the decomposed image</returns>
+</member>
+</members>
+</doc>
