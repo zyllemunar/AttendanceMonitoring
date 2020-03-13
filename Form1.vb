@@ -251,6 +251,7 @@ Public Class Form1
             imageBox1.Image = TrainedFace
 
             File.WriteAllText(Application.StartupPath + "/TrainedFaces/TrainedLabels.txt", trainingImages.ToArray().Length.ToString() & "%")
+           
 
            
             For i As Integer = 1 To trainingImages.ToArray().Length
