@@ -67,7 +67,7 @@ Partial Class Form1
         Me.button2.Name = "button2"
         Me.button2.Size = New System.Drawing.Size(106, 31)
         Me.button2.TabIndex = 3
-        Me.button2.Text = "Train"
+        Me.button2.Text = "Register"
         Me.button2.UseVisualStyleBackColor = True
         
         Me.label5.AutoSize = True
@@ -77,7 +77,7 @@ Partial Class Form1
         Me.label5.Name = "label5"
         Me.label5.Size = New System.Drawing.Size(197, 15)
         Me.label5.TabIndex = 17
-        Me.label5.Text = "Persons present in the scene:"
+        Me.label5.Text = "Students present today:"
        
         Me.label4.AutoSize = True
         Me.label4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -110,22 +110,22 @@ Partial Class Form1
         Me.textBox1.Name = "textBox1"
         Me.textBox1.Size = New System.Drawing.Size(103, 20)
         Me.textBox1.TabIndex = 7
-        Me.textBox1.Text = "----"
+        Me.textBox1.Text = ""
        
         Me.label2.AutoSize = True
-        Me.label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label2.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label2.Location = New System.Drawing.Point(13, 311)
         Me.label2.Name = "label2"
         Me.label2.Size = New System.Drawing.Size(179, 15)
         Me.label2.TabIndex = 14
-        Me.label2.Text = "Number of faces detected: "
+        Me.label2.Text = "Number of students present "
        
         Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.button1.Location = New System.Drawing.Point(12, 330)
         Me.button1.Name = "button1"
         Me.button1.Size = New System.Drawing.Size(452, 36)
         Me.button1.TabIndex = 2
-        Me.button1.Text = "Start"
+        Me.button1.Text = "Begin"
         Me.button1.UseVisualStyleBackColor = True
         '
         'Timer1
@@ -134,12 +134,12 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Times New Roman", 9.9!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(338, 9)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(130, 16)
         Me.Label6.TabIndex = 16
-        Me.Label6.Text = "Face Recognition"
+        Me.Label6.Text = "Attendance Checker"
         '
         'Form1
         '
